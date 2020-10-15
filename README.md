@@ -1,6 +1,6 @@
-# ahpcc_slurmjob_watcher
+# ahpcc_slurmjob_watcher.sh
 
-This script should be able to be used on any computer system employing the SLURM scheduler.
+This script should be able to be used on any computer system employing the SLURM scheduler, though it was specifically written for use with the Arkansas High Performance Computing Center (AHPCC) "Pinnacle" cluster. The main hard-coded features are the designations of the scratch directories, which can be idiosyncratic to the HPC cluster you are working on. That is to say that, if this script doesn't work for you, the first thing to check is probably the hard-coded scratch directories. 
 Certain features of the script may not work exactly as expected, depending on the exact way SLURM was configured for your HPC. Fortunately, the actual code is heavily commented, so it should be (hopefully) easy to find problems and modify the script if needed to suit your purposes. 
 
 Here is the manual/"man page" associated with the script, which can also be found at the top of the script, or by executing the script with the "--help" option: 
