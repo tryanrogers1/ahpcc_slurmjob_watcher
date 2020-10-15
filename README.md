@@ -4,6 +4,7 @@ This script should be able to be used on any computer system employing the SLURM
 Certain features of the script may not work exactly as expected, depending on the exact way SLURM was configured for your HPC. Fortunately, the actual code is heavily commented, so it should be (hopefully) easy to find problems and modify the script if needed to suit your purposes. 
 
 Here is the manual/"man page" associated with the script, which can also be found at the top of the script, or by executing the script with the "--help" option: 
+```
 ===================================================================================
  ahpcc_slurmjob_watcher.sh      (Arkansas High Performance Computing Center's tool
                                  to help you be a good WATCHER of your SLURM JOBs)
@@ -87,3 +88,5 @@ __NOTE_4__
  disabled. If you wish to see PD jobs, consider executing the script again without
  the -j flag.
 ===================================================================================
+```
+
